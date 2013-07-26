@@ -1,5 +1,7 @@
 window.onload=function(){
-
+$('#container').load('conteudo.html', function() {
+  $('#load, #carregando').hide();
+});
 function browser(){
 var browser=navigator.appName;  
 var b_version=navigator.appVersion;  
