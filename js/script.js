@@ -1,7 +1,17 @@
 window.onload=function(){
-$('#container').load('conteudo.html', function() {
-  $('#load, #carregando').hide();
-});
+  $('a').button({
+      icons: {
+        primary: "ui-icon ui-icon-circle-arrow-s"
+      },
+     
+    });
+  $(".descer").click(function(){
+    $("html,body").animate({scrollTop: $("#i").offset().top}, 2000);       
+        });
+    $(".subir").click(function(){
+    $("html,body").animate({scrollTop: $(".top").offset().top}, 2000);       
+        });
+ 
 function browser(){
 var browser=navigator.appName;  
 var b_version=navigator.appVersion;  
@@ -15,14 +25,10 @@ if(browser=="Microsoft Internet Explorer"){
             hide: "fade",
             modal: true
         });
-}
-//document.write("Browser name: "+ browser);  
-//document.write("<br />");  
-//document.write("Browser version: "+ version);  
+  }
 }
 
 browser();
-
   $("#lanche1").click(function(){
         $("#dialog").dialog({
            

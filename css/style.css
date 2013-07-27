@@ -2,57 +2,47 @@ body{
 
   background-image: url(../images/pw_maze_white.png);
 }
-/*load--------------------*/
-#load{
-  background-color: #E2E2E2;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: 3;
-  left: 0px;
-  top: 0px;
+/*bt subir/descer--------------------*/
+#fixa{
+  position: fixed;
+  top: 5px;
+  left: 5px;
 }
-#carregando{
+.top{
   position: absolute;
-  width: 31px;
-  height: 31px;
-  margin-left: -15px;
-  margin-top: -15px;
-  left: 50%;
-  top: 50%;
-  z-index: 4;
+  top: 0px;
 
 }
 
 /*dialogs--------------------*/
 #dialog{display: none;
-font-size: 12px;
+font-size: 10px;
 text-align: justify;}
 #restaurante_dialog{
   display: none;
-  font-size:12px;
+  font-size: 10px;
   text-align: justify;
 }
 #browser_dialog{
   display: none;
-  font-size:12px;
+  font-size: 10px;
   text-align: justify;
 }
 #macaco_aranha_dialog{
   display: none;
-  font-size:12px;
+  font-size: 10px;
   text-align: justify;
   line-height: 20px;
 }
 #leao_dialog{
   display: none;
-  font-size:12px;
+  font-size: 10px;
   text-align: justify;
   line-height: 20px;
 }
 #hipopotamo_dialog{
   display: none;
-  font-size:12px;
+  font-size: 10px;
   text-align: justify;
   line-height: 20px;
 }
