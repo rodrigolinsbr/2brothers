@@ -1,10 +1,17 @@
 window.onload=function(){
-  $('a').button({
+  $('a:eq(0)').button({
       icons: {
         primary: "ui-icon ui-icon-circle-arrow-s"
       },
      
+    });  $('a:eq(1)').button({
+      icons: {
+        primary: "ui-icon ui-icon-circle-arrow-n"
+      },
+     
     });
+  
+
   $(".descer").click(function(){
     $("html,body").animate({scrollTop: $("#i").offset().top}, 2000);       
         });
