@@ -16,6 +16,7 @@ body{
 }
 
 /*dialogs--------------------*/
+.dialog{display: none;}
 #dialog{display: none;
 font-size: 10px;
 text-align: justify;}
@@ -178,7 +179,7 @@ height: 30px;
 z-index: 2;
 cursor: pointer;
  }
- #babuino{
+ #macaco_prego{
 position: absolute;
 left: 421px;
 top: 589px;

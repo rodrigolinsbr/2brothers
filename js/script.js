@@ -73,8 +73,125 @@ browser();
       modal: true
     });
         });
-                 $("#hipopotamo").click(function(){
+    $("#hipopotamo").click(function(){
         $("#hipopotamo_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#serpentes").click(function(){
+        $("#serpente_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#jacare").click(function(){
+        $("#jacare_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#chimpanze").click(function(){
+        $("#chimpanze_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+   $("#macaco_prego").click(function(){
+        $("#macaco_prego_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+     $("#urso").click(function(){
+        $("#urso_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#cervideos").click(function(){
+        $("#cervideos_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#tigres").click(function(){
+        $("#tigres_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+      $("#avestruz").click(function(){
+        $("#avestruz_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#pelicano").click(function(){
+        $("#pelicano_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+    $("#urso").click(function(){
+        $("#urso_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+      $("#tucano").click(function(){
+        $("#tucano_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+        $("#quelonios").click(function(){
+        $("#cagado_dialog").dialog({
+     
+      width: 539,
+      show: "fade",
+      hide: "fade",
+      modal: true
+    });
+        });
+     $("#mutuns").click(function(){
+        $("#mutuns_dialog").dialog({
      
       width: 539,
       show: "fade",
