@@ -13,7 +13,7 @@ window.onload=function(){
   
 
   $(".descer").click(function(){
-    $("html,body").animate({scrollTop: $("#i").offset().top}, 2000);       
+    $("html,body").animate({scrollTop: $("#serpentes").offset().top}, 2000);       
         });
     $(".subir").click(function(){
     $("html,body").animate({scrollTop: $(".top").offset().top}, 2000);       

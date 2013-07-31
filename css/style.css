@@ -81,6 +81,67 @@ text-align: justify;}
 #phone1:hover{
    
 }
+#cidade{
+  position: absolute;
+  left: 157px;
+  top: 75px;
+
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor:pointer;
+}
+#banheiro1{
+  position: absolute;
+  left: 187px;
+  top: 100px;
+
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor:pointer;
+}
+
+#banheiro2{
+  position: absolute;
+  left: 200px;
+  top: 664px;
+
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor:pointer;
+}
+#banheiro3{
+  position: absolute;
+ left: 205px;
+  top: 1100px;
+
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor:pointer;
+}
+#administracao{
+  position: absolute;
+ left: 195px;
+  top: 1140px;
+
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor:pointer;
+}
+#posto{
+  position: absolute;
+ left: 270px;
+  top: 1070px;
+
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+  cursor:pointer;
+}
 #restaurante{
 position: absolute;
 left: 225px;
