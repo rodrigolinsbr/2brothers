@@ -1,4 +1,5 @@
 window.onload=function(){
+  //adicionar botao e icone
   $('a:eq(0)').button({
       icons: {
         primary: "ui-icon ui-icon-circle-arrow-s"
@@ -11,14 +12,15 @@ window.onload=function(){
      
     });
   
-
+//funcionalidade para descer tela
   $(".descer").click(function(){
     $("html,body").animate({scrollTop: $("#serpentes").offset().top}, 2000);       
         });
+//funcionalidade para subir tela
     $(".subir").click(function(){
     $("html,body").animate({scrollTop: $(".top").offset().top}, 2000);       
         });
- 
+ //testar browser
 function browser(){
 var browser=navigator.appName;  
 var b_version=navigator.appVersion;  
@@ -36,6 +38,7 @@ if(browser=="Microsoft Internet Explorer"){
 }
 
 browser();
+//funcao click para visualizar informacoes
   $("#lanche1").click(function(){
         $("#dialog").dialog({
            
